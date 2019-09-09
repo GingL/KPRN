@@ -2,8 +2,8 @@
 
 ## Introduction
 
-This repository is Pytorch implementation of [Knowledge-guided Pairwise Reconstruction Network for Weakly Supervised Referring Expression Grounding]() in ACM MM 2019.
-Check our [paper]() for more details.
+This repository is Pytorch implementation of [Knowledge-guided Pairwise Reconstruction Network for Weakly Supervised Referring Expression Grounding](https://arxiv.org/pdf/1909.02860.pdf) in ACM MM 2019.
+Check our [paper](https://arxiv.org/pdf/1909.02860.pdf) for more details.
 
 
 ## Prerequisites
