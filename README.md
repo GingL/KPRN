@@ -26,6 +26,7 @@ cache/word_embedding/download_embed_matrix.sh
 
 * Generate semantic similarity and word embedding file.
 ```bash
+python tools/prepro_sub_obj_wds.py --dataset ${DATASET} --splitBy ${SPLITBY}
 python tools/prepro_sim.py --dataset ${DATASET} --splitBy ${SPLITBY}
 ```
 

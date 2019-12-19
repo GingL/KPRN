@@ -98,7 +98,7 @@ if __name__ == '__main__':
     parser.add_argument('--output_json', default='sub_obj_wds.json', help='output json file')
     parser.add_argument('--data_root', default='data', type=str,
                         help='data folder containing images and four datasets.')
-    parser.add_argument('--dataset', default='refclef', type=str, help='refcoco/refcoco+/refcocog')
+    parser.add_argument('--dataset', default='refcoco', type=str, help='refcoco/refcoco+/refcocog')
     parser.add_argument('--splitBy', default='unc', type=str, help='unc/google')
     parser.add_argument('--images_root', default='', help='root location in which images are stored')
 
