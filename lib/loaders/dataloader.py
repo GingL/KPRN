@@ -310,7 +310,7 @@ class DataLoader(Loader):
 
         sub_sim = torch.Tensor(self.similarity[str(image_id)]['sub_sim']).cuda().squeeze(2)
         obj_sim = torch.Tensor(self.similarity[str(image_id)]['obj_sim']).cuda().squeeze(2)
-        sub_emb = torch.Tensor(self.similarity[str(image_id)]['obj_emb']).cuda()
+        sub_emb = torch.Tensor(self.similarity[str(image_id)]['sub_emb']).cuda()
         obj_emb = torch.Tensor(self.similarity[str(image_id)]['obj_emb']).cuda()
 
         ann_fc7, ann_pool5, lfeats, dif_lfeats, cxt_fc7, cxt_lfeats, dist = self.extract_ann_features(image_id, opt, obj_sim)
